@@ -9,3 +9,4 @@ Libraries used
 - [multer](https://www.npmjs.com/package/multer)
 - [csv-parse](https://www.npmjs.com/package/csv-parse)
 - [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+- [typeorm](https://typeorm.io/#/)
