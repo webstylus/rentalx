@@ -1,4 +1,4 @@
-# API NodeJS RentalX
+# API NodeJS RentX
 
 API Restful with SOLID concepts implementations
 
@@ -10,3 +10,4 @@ Libraries used
 - [csv-parse](https://www.npmjs.com/package/csv-parse)
 - [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
 - [typeorm](https://typeorm.io/#/)
+- [TSyringe](https://github.com/microsoft/tsyringe)
