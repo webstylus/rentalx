@@ -10,4 +10,5 @@ Libraries used
 - [csv-parse](https://www.npmjs.com/package/csv-parse)
 - [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
 - [typeorm](https://typeorm.io/#/)
-- [TSyringe](https://github.com/microsoft/tsyringe)
+- [tsyringe](https://github.com/microsoft/tsyringe)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)

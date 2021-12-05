@@ -1,4 +1,4 @@
-FROM node
+FROM node:14.18.1
 
 WORKDIR /usr/app
 
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD ["npm run dev", "npm typeorm migration:run"]
+CMD ["npm", "run", "dev"]
