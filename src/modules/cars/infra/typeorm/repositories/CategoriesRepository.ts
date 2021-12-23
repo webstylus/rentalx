@@ -1,10 +1,9 @@
-import { getRepository, Repository } from "typeorm";
-
-import { Category } from "../../entities/Category";
+import { Category } from "@modules/cars/infra/typeorm/entities/Category";
 import {
   ICategoriesRepository,
   ICreateCategoryDTO,
-} from "../ICategoriesRepository";
+} from "@modules/cars/repositories/ICategoriesRepository";
+import { getRepository, Repository } from "typeorm";
 
 class CategoriesRepository implements ICategoriesRepository {
   private repository: Repository<Category>;
@@ -23,13 +22,11 @@ class CategoriesRepository implements ICategoriesRepository {
   }
 
   async list(): Promise<Category[]> {
-    const categories = await this.repository.find();
-    return categories;
+    return this.repository.find();
   }
 
   async findByName(name: string): Promise<Category> {
-    const category = await this.repository.findOne({ name });
-    return category;
+    return this.repository.findOne({ name });
   }
 }
 
