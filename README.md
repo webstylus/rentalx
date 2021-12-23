@@ -12,9 +12,14 @@ API Restful com conceitos de SOLID implementados
 **RN**
 
 - Não deve ser possível cadastrar um carro com uma placa já existente.
-- Não deve ser possível alterar a placa de um carro ja cadastrado.
 - O carro deve ser cadastrado com disponibilidade `true` por padrão.
 - O usuário responsável pelo cadastro deve ser um administrador.
+
+### Atualizar carro
+
+**RF**
+
+- Não deve ser possível alterar a placa de um carro ja cadastrado.
 
 ### Listagem de carros
 
